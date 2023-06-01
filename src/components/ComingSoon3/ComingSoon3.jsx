@@ -46,9 +46,9 @@ const ComingSoon3 = () => {
 // TODO add save the date page to button
 //  const [location, setLocation] = useState<string>(false);
 
-const saveTheDateButton = () => {
-  window.open(<SaveTheDate />);
-}
+// const saveTheDateButton = () => {
+//   window.open(<SaveTheDate />);
+// }
 
 return(
 
