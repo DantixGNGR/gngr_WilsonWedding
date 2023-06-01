@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/gngr_wilsonwedding/static/css/main.073c9b0a.css",
-    "main.js": "/gngr_wilsonwedding/static/js/main.2f32a390.js",
-    "static/js/787.f078fa69.chunk.js": "/gngr_wilsonwedding/static/js/787.f078fa69.chunk.js",
-    "static/media/logo.svg": "/gngr_wilsonwedding/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/gngr_wilsonwedding/static/css/main.2a5effbe.css",
+    "main.js": "/gngr_wilsonwedding/static/js/main.8fb091bb.js",
+    "static/media/uec1.jpg": "/gngr_wilsonwedding/static/media/uec1.aeccc85e00cb57d8f274.jpg",
+    "static/media/bg_image.jpg": "/gngr_wilsonwedding/static/media/bg_image.81aff2f0aecff6e86d3c.jpg",
     "index.html": "/gngr_wilsonwedding/index.html",
-    "main.073c9b0a.css.map": "/gngr_wilsonwedding/static/css/main.073c9b0a.css.map",
-    "main.2f32a390.js.map": "/gngr_wilsonwedding/static/js/main.2f32a390.js.map",
-    "787.f078fa69.chunk.js.map": "/gngr_wilsonwedding/static/js/787.f078fa69.chunk.js.map"
+    "main.2a5effbe.css.map": "/gngr_wilsonwedding/static/css/main.2a5effbe.css.map",
+    "main.8fb091bb.js.map": "/gngr_wilsonwedding/static/js/main.8fb091bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2f32a390.js"
+    "static/css/main.2a5effbe.css",
+    "static/js/main.8fb091bb.js"
   ]
 }
