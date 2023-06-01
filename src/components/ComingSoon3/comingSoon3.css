@@ -31,7 +31,7 @@
   align-items: center;
   text-align: center;
   padding: 16px;
-  margin-top: -70px;
+  margin-top: -110px;
   border-color: aliceblue;
   border-width: 2px;
 }
@@ -161,6 +161,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
+
 }
 
 
