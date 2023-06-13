@@ -60,7 +60,7 @@ return(
       <div className='h2'>WEDDING</div>
       <div className='text'>Website is under maintenance</div>
       <div className='h3'>Coming Soon</div>
-      <div className='text'>We are currently building this site but will be up 30 June 2023! Until then, you can get in touch by clicking the button below.</div>
+      <div className='text'>We are currently building this site but will be up and running 30 June 2023! Until then, you can get in touch by clicking the button below.</div>
        
       <div className='buttonWrapper'>
             <a className='button__mail' href='mailto:danica.bez@live.com' target='_blank'>GET IN TOUCH</a>
