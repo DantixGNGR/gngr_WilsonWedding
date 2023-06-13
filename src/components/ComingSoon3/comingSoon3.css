@@ -81,6 +81,7 @@
   color: var(--color-white);
   text-align: center;
   text-shadow: 0.5px 0.5px var(--color-dark);
+  margin: 0px 50px 0px 50px;
 }
 
 .buttonWrapper{
@@ -175,57 +176,10 @@
   font-size: 30px;
   text-align: center;
 }
+
+
 /*media queries*/
-@media screen and (min-width: 480px) {
-  .h1 {
-    font-size: 70px;
-  }
-  .h2{
-    font-size: 55px;
-    margin-top: -10px;
-    margin-bottom: 20px;
-  }
-  .h3{
-    font-size: 30px;
-  }
-  .text{
-    font-size: 12px;
-  }
-  .countdown p{
-    font-size: 50px;
-  }
-  .countdown span{
-    font-size: 15px;
-  }
-  .blur{
-    width: 400px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .h1 {
-    font-size: 100px;
-  }
-  .h2{
-    font-size: 75px;
-    margin-top: -20px;
-  }
-  .h3{
-    font-size: 50px;
-  }
-  .text{
-    font-size: 16px;
-  }
-  .countdown p{
-    font-size: 50px;
-  }
-  .countdown span{
-    font-size: 15px;
-  }
-  .blur{
-    width: 700px;
-  }
-  
-}
+/*Desktop view*/
 @media screen and (min-width: 1024px) {
   .h1 {
     font-size: 130px;
@@ -246,10 +200,16 @@
     font-size: 30px;
   }
   .blur{
-    width: 900px;
+    width: 1000px;
+    height: 700px;
+    background-color: blue;
+    margin-top: -10px;
   }
 }
-@media screen and (min-width: 1280px) {
+
+/*Tablet view*/
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
   .h1 {
     font-size: 130px;
   }
@@ -269,7 +229,44 @@
     font-size: 30px;
   }
   .blur{
-    width: 1080px;
+    width: 900px;
+    height: 700px;
+    background-color: green;
+    margin-top: -10px;
   }
- 
+}
+
+/*Mobile & Portrait view*/
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .h1 {
+    font-size: 150px;
+    margin-top: 10px;
+  }
+  .h2{
+    font-size: 115px;
+  }
+  .h3{
+    font-size: 65px;
+  }
+  .text{
+    font-size: 24px;
+  }
+
+  .button__std{
+    width: 120px;
+    height: 100px;
+  }
+  .countdown p{
+    font-size: 65px;
+  }
+  .countdown span{
+    font-size: 30px;
+  }
+  .blur{
+    width: 900px;
+    height: 1000px;
+    background-color: pink;
+    margin-top: -10px;
+  }
 }

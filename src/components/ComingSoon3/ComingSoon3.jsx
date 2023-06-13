@@ -4,7 +4,7 @@ import SaveTheDate from '../SaveTheDate/SaveTheDate'
 
 const ComingSoon3 = () => {
 
-  let endTime = new Date("June 30, 2023 12:00:00").getTime();
+  let endTime = new Date("March 9, 2024 12:00:00").getTime();
   // var divtags=window.document.getElementsByTagName("div")
     function countdown() {
       let todayDate = new Date();
