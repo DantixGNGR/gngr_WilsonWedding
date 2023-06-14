@@ -240,18 +240,18 @@ and (max-device-width: 1024px) {
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
   .h1 {
-    font-size: 150px;
+    font-size: 170px;
     margin-top: 50px;
   }
   .h2{
-    font-size: 115px;
+    font-size: 130px;
   }
   .h3{
-    font-size: 65px;
+    font-size: 75px;
 
   }
   .text{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 30px;
   }
 
@@ -260,18 +260,19 @@ and (orientation: portrait) {
     height: 70px;
     /* background-color: red; */
     font-size: 35px;
-    margin: 80px 0px 40px 0px;
+    margin: 100px 0px 40px 0px;
   }
   .countdown p{
-    font-size: 85px;
+    font-size: 105px;
+    margin-top: 20px;
   }
   .countdown span{
     font-size: 40px;
   }
   .blur{
     width: 800px;
-    height: 1200px;
+    height: 1700px;
     /* background-color: pink; */
-    margin-top: -350px;
+    margin-top: 10px;
   }
 }
